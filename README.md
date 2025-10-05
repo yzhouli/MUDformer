@@ -1,4 +1,4 @@
-# MSDformer
+# MUDformer
 
 ## Dataset
 
@@ -10,4 +10,4 @@ Due to the dataset magnitude exceeding the GitHub maximum limit, we uploaded the
 
 ## Model and Train
 
-This site maintains the source code and training code for the MSDformer model. Among other things, the dataset processing code for model training is found in the MFE folder. The standards for the dataset are shown in the Datasets/train.json file. Run.py is the training how to and Config.py is the configuration centre for training.
+This site maintains the source code and training code for the MUDformer model. Among other things, the dataset processing code for model training is found in the MFE folder. The standards for the dataset are shown in the Datasets/train.json file. Run.py is the training how to and Config.py is the configuration centre for training.
