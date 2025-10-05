@@ -4,9 +4,9 @@
 
 Due to the dataset magnitude exceeding the GitHub maximum limit, we uploaded the constructed spammer detection benchmark dataset to other professional websites.
 
-**Weibo 2023:** [GitHub](https://github.com/yzhouli/Spammer-Detection-Dataset), [Baidu](https://aistudio.baidu.com/datasetdetail/312909), and [Kaggle](https://www.kaggle.com/datasets/yangzhou32/spammer-detection-v1)
+**Weibo-25:** [GitHub](https://github.com/yzhouli/Spammer-Detection-Dataset), [Baidu](https://aistudio.baidu.com/datasetdetail/312909), and [Kaggle](https://www.kaggle.com/datasets/yangzhou32/spammer-detection-v1)
 
-**Weibo 2024:** [Baidu-Spammer](https://aistudio.baidu.com/datasetdetail/312951), [Baidu-Normal](https://aistudio.baidu.com/datasetdetail/312956), and [Kaggle](https://www.kaggle.com/datasets/yangzhou32/spammer-detection-v2)
+**MisDerdect:** The original dataset is [here](https://github.com/yzhouli/SocialNet/tree/master/Weibo), and the dataset supplemented via the official API is [here](https://www.kaggle.com/datasets/yangzhou32/spammer-detection-v2).
 
 ## Model and Train
 
