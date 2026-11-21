@@ -1,0 +1,129 @@
+{
+  "seed": 42,
+  "input_protocol": "original frozen features and original test manifests; no retraining",
+  "release_inference_matches_archived_metrics": true,
+  "classification": {
+    "MORSE": {
+      "classification_checkpoint": {
+        "metrics": {
+          "accuracy": 0.957,
+          "macro_precision": 0.957962468869594,
+          "macro_recall": 0.9558236765239305,
+          "macro_f1": 0.9567017181362406
+        },
+        "expected": {
+          "accuracy": 0.957,
+          "macro_precision": 0.957962468869594,
+          "macro_recall": 0.9558236765239305,
+          "macro_f1": 0.9567017181362406
+        },
+        "max_absolute_metric_error": 0.0,
+        "checkpoint_sha256": "5b29b6f79e8d3ec4e71b16251e0b1eb0de042c6ab17d86d65edfbcc283c97a13",
+        "test_users": 2000
+      },
+      "audit_checkpoint_user_classification": {
+        "metrics": {
+          "accuracy": 0.957,
+          "macro_precision": 0.957962468869594,
+          "macro_recall": 0.9558236765239305,
+          "macro_f1": 0.9567017181362406
+        },
+        "expected": {
+          "accuracy": 0.957,
+          "macro_precision": 0.957962468869594,
+          "macro_recall": 0.9558236765239305,
+          "macro_f1": 0.9567017181362406
+        },
+        "max_absolute_metric_error": 0.0,
+        "checkpoint_sha256": "89263ac6ccdd248d19e507ef32ddddd81b21ee24d29f31e4c8a8b9c0cf656aa5",
+        "test_users": 2000
+      },
+      "max_probability_difference": 0.0,
+      "changed_user_decisions": 0
+    },
+    "Weibo-25-plus": {
+      "classification_checkpoint": {
+        "metrics": {
+          "accuracy": 0.9343065693430657,
+          "macro_precision": 0.9343563512361466,
+          "macro_recall": 0.9343563512361466,
+          "macro_f1": 0.9343065693430657
+        },
+        "expected": {
+          "accuracy": 0.9343065693430657,
+          "macro_precision": 0.9343563512361466,
+          "macro_recall": 0.9343563512361466,
+          "macro_f1": 0.9343065693430657
+        },
+        "max_absolute_metric_error": 0.0,
+        "checkpoint_sha256": "1c3f495c4691c2e57ff005c1249cd350dafa53df7355a8fec772cbb8efdc8699",
+        "test_users": 137
+      },
+      "audit_checkpoint_user_classification": {
+        "metrics": {
+          "accuracy": 0.9343065693430657,
+          "macro_precision": 0.9343563512361466,
+          "macro_recall": 0.9343563512361466,
+          "macro_f1": 0.9343065693430657
+        },
+        "expected": {
+          "accuracy": 0.9343065693430657,
+          "macro_precision": 0.9343563512361466,
+          "macro_recall": 0.9343563512361466,
+          "macro_f1": 0.9343065693430657
+        },
+        "max_absolute_metric_error": 0.0,
+        "checkpoint_sha256": "35fc59403f3345feb8b8d6eeb800b5bcb8f944a6d1f6b5c86abbb33650e99dab",
+        "test_users": 137
+      },
+      "max_probability_difference": 0.0,
+      "changed_user_decisions": 0
+    }
+  },
+  "localization": {
+    "MORSE": {
+      "metrics": {
+        "target_normal_test_users": 684,
+        "clean_correct_normal_targets": 450,
+        "clean_normal_false_positive_rate": 0.34210526315789475,
+        "injection_detection_successes": 317,
+        "injection_detection_rate": 0.46345029239766083,
+        "top1_localization_hits_given_detection": 298,
+        "localization_recall_at_1_given_detection": 0.9400630914826499,
+        "TGLS_at_1": 0.43567251461988304,
+        "top1_chance_rate": 0.2
+      },
+      "expected": {
+        "target_normal_test_users": 684,
+        "clean_correct_normal_targets": 450,
+        "injection_detection_successes": 317,
+        "top1_localization_hits_given_detection": 298,
+        "injection_detection_rate": 0.46345029239766083,
+        "TGLS_at_1": 0.43567251461988304
+      },
+      "max_absolute_metric_error": 0
+    },
+    "Weibo-25-plus": {
+      "metrics": {
+        "target_normal_test_users": 69,
+        "clean_correct_normal_targets": 41,
+        "clean_normal_false_positive_rate": 0.4057971014492754,
+        "injection_detection_successes": 36,
+        "injection_detection_rate": 0.5217391304347826,
+        "top1_localization_hits_given_detection": 33,
+        "localization_recall_at_1_given_detection": 0.9166666666666666,
+        "TGLS_at_1": 0.4782608695652174,
+        "top1_chance_rate": 0.2
+      },
+      "expected": {
+        "target_normal_test_users": 69,
+        "clean_correct_normal_targets": 41,
+        "injection_detection_successes": 36,
+        "top1_localization_hits_given_detection": 33,
+        "injection_detection_rate": 0.5217391304347826,
+        "TGLS_at_1": 0.4782608695652174
+      },
+      "max_absolute_metric_error": 0
+    }
+  }
+}

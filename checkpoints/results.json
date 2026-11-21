@@ -1,0 +1,53 @@
+{
+  "seed": 42,
+  "classification": {
+    "Weibo-25": {
+      "accuracy": 0.9343065693430657,
+      "macro_precision": 0.9343563512361466,
+      "macro_recall": 0.9343563512361466,
+      "macro_f1": 0.9343065693430657
+    },
+    "MORSE": {
+      "accuracy": 0.957,
+      "macro_precision": 0.957962468869594,
+      "macro_recall": 0.9558236765239305,
+      "macro_f1": 0.9567017181362406
+    }
+  },
+  "localization": {
+    "Weibo-25": {
+      "seed": 42,
+      "target_normal_test_users": 69,
+      "clean_correct_normal_targets": 41,
+      "clean_normal_false_positive_rate": 0.4057971014492754,
+      "injection_detection_successes": 36,
+      "injection_detection_rate": 0.5217391304347826,
+      "top1_localization_hits_given_detection": 33,
+      "localization_recall_at_1_given_detection": 0.9166666666666666,
+      "TGLS_at_1": 0.4782608695652174,
+      "top1_chance_rate": 0.2
+    },
+    "MORSE": {
+      "target_normal_test_users": 684,
+      "clean_correct_normal_targets": 450,
+      "clean_normal_false_positive_rate": 0.34210526315789475,
+      "injection_detection_successes": 317,
+      "injection_detection_rate": 0.46345029239766083,
+      "top1_localization_hits_given_detection": 298,
+      "localization_recall_at_1_given_detection": 0.9400630914826499,
+      "TGLS_at_1": 0.43567251461988304,
+      "top1_chance_rate": 0.2
+    }
+  },
+  "evaluation_setup": {
+    "train_test_ratio": [
+      0.8,
+      0.2
+    ],
+    "classification_max_behaviors": 2048,
+    "localization_max_behaviors": 16384,
+    "localization_min_history": 50,
+    "localization_target": "controlled injected behavior block",
+    "values": "one real seed, not multi-seed table averages"
+  }
+}

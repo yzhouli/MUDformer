@@ -1,0 +1,20 @@
+[
+  {
+    "dataset": "Weibo-25-plus",
+    "strict_state_load": true,
+    "non_audit_keys_bitwise_equal": 169,
+    "classification_logits_bitwise_equal": true,
+    "deterministic_audit_logits": true,
+    "parameters": 1323523,
+    "audit_trainable_parameters": 193
+  },
+  {
+    "dataset": "MORSE",
+    "strict_state_load": true,
+    "non_audit_keys_bitwise_equal": 169,
+    "classification_logits_bitwise_equal": true,
+    "deterministic_audit_logits": true,
+    "parameters": 1323523,
+    "audit_trainable_parameters": 193
+  }
+]

@@ -1,0 +1,25 @@
+{
+  "input_dim": 768,
+  "latent_dim": 64,
+  "encoder_hidden_dim": 256,
+  "num_heads": 8,
+  "ff_multiplier": 4,
+  "dropout": 0.2,
+  "num_classes": 2,
+  "fusion_type": "poe",
+  "include_prior_expert": true,
+  "hierarchy_type": "full",
+  "pooling_type": "mean",
+  "temporal_mil": true,
+  "temporal_mil_scale": 3.0,
+  "temporal_mil_temperature": 1.0,
+  "profile_dim": 72,
+  "graph_dim": 51,
+  "branch_aux_weight": 0.4,
+  "gate_temperature": 1.0,
+  "behavior_priority": true,
+  "stages": [
+    {"window_size": 64, "stride": 32, "local_layers": 1, "global_layers": 3},
+    {"window_size": 64, "stride": 4, "local_layers": 1, "global_layers": 3}
+  ]
+}

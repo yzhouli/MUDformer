@@ -1,0 +1,146 @@
+[
+  {
+    "dataset": "Weibo-25-plus",
+    "task": "classification",
+    "seed": 42,
+    "epoch": 32,
+    "original_sha256": "8d39f0370e6a005e0647bfa33e92acb90fecfc4ae4c3117deee21544a99757d7",
+    "export_sha256": "1c3f495c4691c2e57ff005c1249cd350dafa53df7355a8fec772cbb8efdc8699",
+    "all_tensors_bitwise_equal": true,
+    "state_keys": 173,
+    "config": {
+      "input_dim": 768,
+      "latent_dim": 64,
+      "encoder_hidden_dim": 256,
+      "num_heads": 8,
+      "ff_multiplier": 4,
+      "dropout": 0.2,
+      "num_classes": 2,
+      "fusion_type": "poe",
+      "include_prior_expert": true,
+      "hierarchy_type": "full",
+      "pooling_type": "mean",
+      "informer_layers": 3,
+      "informer_factor": 5,
+      "informer_distil": true,
+      "temporal_mil": true,
+      "temporal_mil_scale": 3.0,
+      "temporal_mil_temperature": 1.0,
+      "profile_dim": 72,
+      "graph_dim": 51,
+      "branch_aux_weight": 0.4,
+      "gate_temperature": 1.0,
+      "behavior_priority": true,
+      "stages": [
+        {
+          "window_size": 64,
+          "stride": 32,
+          "local_layers": 1,
+          "global_layers": 3
+        },
+        {
+          "window_size": 64,
+          "stride": 4,
+          "local_layers": 1,
+          "global_layers": 3
+        }
+      ]
+    }
+  },
+  {
+    "dataset": "Weibo-25-plus",
+    "task": "audit",
+    "seed": 42,
+    "epoch": 11,
+    "original_sha256": "4caa213a4888c42b378cc9dc2da81b9c4e6c210546f6323633386eea65e6c0ab",
+    "export_sha256": "35fc59403f3345feb8b8d6eeb800b5bcb8f944a6d1f6b5c86abbb33650e99dab",
+    "all_tensors_bitwise_equal": true,
+    "state_keys": 173,
+    "config": {
+      "input_dim": 768,
+      "latent_dim": 64,
+      "encoder_hidden_dim": 256,
+      "num_heads": 8,
+      "ff_multiplier": 4,
+      "dropout": 0.2,
+      "num_classes": 2,
+      "fusion_type": "poe",
+      "include_prior_expert": true,
+      "hierarchy_type": "full",
+      "pooling_type": "mean",
+      "informer_layers": 3,
+      "informer_factor": 5,
+      "informer_distil": true,
+      "temporal_mil": true,
+      "temporal_mil_scale": 3.0,
+      "temporal_mil_temperature": 1.0,
+      "profile_dim": 72,
+      "graph_dim": 51,
+      "branch_aux_weight": 0.4,
+      "gate_temperature": 1.0,
+      "behavior_priority": true,
+      "stages": [
+        {
+          "window_size": 64,
+          "stride": 32,
+          "local_layers": 1,
+          "global_layers": 3
+        },
+        {
+          "window_size": 64,
+          "stride": 4,
+          "local_layers": 1,
+          "global_layers": 3
+        }
+      ]
+    }
+  },
+  {
+    "dataset": "MORSE",
+    "task": "classification",
+    "seed": 42,
+    "epoch": 7,
+    "original_sha256": "9635cca15cd497eec1fa614d9e3143d34f02668075d25d1561d9bc9bf8a55600",
+    "export_sha256": "5b29b6f79e8d3ec4e71b16251e0b1eb0de042c6ab17d86d65edfbcc283c97a13",
+    "all_tensors_bitwise_equal": true,
+    "state_keys": 173,
+    "config": {
+      "input_dim": 768,
+      "latent_dim": 64,
+      "encoder_hidden_dim": 256,
+      "num_heads": 8,
+      "ff_multiplier": 4,
+      "dropout": 0.2,
+      "num_classes": 2,
+      "fusion_type": "poe",
+      "include_prior_expert": true,
+      "hierarchy_type": "full",
+      "pooling_type": "mean",
+      "informer_layers": 3,
+      "informer_factor": 5,
+      "informer_distil": true,
+      "temporal_mil": true,
+      "temporal_mil_scale": 3.0,
+      "temporal_mil_temperature": 1.0,
+      "profile_dim": 72,
+      "graph_dim": 51,
+      "branch_aux_weight": 0.4,
+      "gate_temperature": 1.0,
+      "behavior_priority": true,
+      "stages": [
+        {
+          "window_size": 64,
+          "stride": 32,
+          "local_layers": 1,
+          "global_layers": 3
+        },
+        {
+          "window_size": 64,
+          "stride": 4,
+          "local_layers": 1,
+          "global_layers": 3
+        }
+      ]
+    }
+  }
+]

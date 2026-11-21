@@ -1,0 +1,50 @@
+[
+  {
+    "dataset": "MORSE",
+    "task": "audit",
+    "seed": 42,
+    "epoch": 11,
+    "original_sha256": "ccdcb76238b960a1a7e142c539342a7fd7253d4c9a7a52c374a53e5fbd9ce7d2",
+    "export_sha256": "89263ac6ccdd248d19e507ef32ddddd81b21ee24d29f31e4c8a8b9c0cf656aa5",
+    "all_tensors_bitwise_equal": true,
+    "state_keys": 173,
+    "config": {
+      "input_dim": 768,
+      "latent_dim": 64,
+      "encoder_hidden_dim": 256,
+      "num_heads": 8,
+      "ff_multiplier": 4,
+      "dropout": 0.2,
+      "num_classes": 2,
+      "fusion_type": "poe",
+      "include_prior_expert": true,
+      "hierarchy_type": "full",
+      "pooling_type": "mean",
+      "informer_layers": 3,
+      "informer_factor": 5,
+      "informer_distil": true,
+      "temporal_mil": true,
+      "temporal_mil_scale": 3.0,
+      "temporal_mil_temperature": 1.0,
+      "profile_dim": 72,
+      "graph_dim": 51,
+      "branch_aux_weight": 0.4,
+      "gate_temperature": 1.0,
+      "behavior_priority": true,
+      "stages": [
+        {
+          "window_size": 64,
+          "stride": 32,
+          "local_layers": 1,
+          "global_layers": 3
+        },
+        {
+          "window_size": 64,
+          "stride": 4,
+          "local_layers": 1,
+          "global_layers": 3
+        }
+      ]
+    }
+  }
+]
